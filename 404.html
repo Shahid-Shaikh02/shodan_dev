@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Not Found</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">Shodan <span>Dev</span></a>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section hero">
+    <div class="container hero-grid" style="align-items:center;">
+      <div class="hero-text">
+        <p class="eyebrow">Error</p>
+        <h1>404 — Page Not Found</h1>
+        <p class="hero-subtitle">The page you’re looking for doesn’t exist or has been moved. Use the link below to return home.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="index.html">Back to Home</a>
+          <a class="btn ghost" href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="hero-card" style="max-width:380px; text-align:center;">
+          <div style="font-size:5rem; font-weight:700; color:var(--accent);">404</div>
+          <p style="color:var(--muted); margin-top:6px;">This route wasn’t found.</p>
+          <ul class="pill-list" style="justify-content:center; margin-top:12px;">
+            <li>Check URL</li>
+            <li>Go Home</li>
+            <li>Report</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Shodan. All rights reserved.</p>
+      <p><a class="text-link" href="index.html">Home</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

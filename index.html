@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shodan | Game & Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#top" class="logo">Shodan<span>Dev</span></a>
+      <nav class="nav">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="#highlights">Highlights</a></li>
+          <li><a href="#downloads">Downloads</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Game Dev • Web Dev • Gamer</p>
+          <h1>Hi, I'm Shodan.</h1>
+          <p class="hero-subtitle">
+            Building games in Unity, web experiences, and sharing dev projects with the community.
+          </p>
+          <div class="hero-actions">
+            <a href="projects.html" class="btn primary">View Projects</a>
+            <a href="#downloads" class="btn ghost">Project Downloads</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-tag">Now available for internships</div>
+          <ul>
+            <li><span>Focus:</span> Gameplay, full‑stack basics, Gaming</li>
+            <li><span>Stack:</span> C#, Unity, HTML, CSS, JS</li>
+            <li><span>Location:</span> India (IST)</li>
+          </ul>
+          <div class="hero-socials">
+            <a href="https://youtube.com/@shodangp" target="_blank" rel="noreferrer">YouTube</a>
+            <a href="https://instagram.com/shodangp" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://instagram.com/shodan_dev" target="_blank" rel="noreferrer">Instagram Dev</a>
+            <a href="https://github.com/Shahid-Shaikh02" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section-header">
+          <h2>About</h2>
+          <p>Short overview of who you are and what you build.</p>
+        </header>
+        <div class="about-grid">
+          <p>
+            Young aspiring gamer and game developer from India, working with Unity, web
+            technologies, and 3D tools to build games, tools, and content for players and devs.
+          </p>
+          <ul class="pill-list">
+            <li>Unity + C#</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Responsive UI</li>
+            <li>Git & GitHub</li>
+            <li>Gaming</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlight Projects -->
+    <section class="section section-alt" id="highlights">
+      <div class="container">
+        <header class="section-header">
+          <h2>Highlighted Projects</h2>
+          <p>Selected games and web projects with GitHub links.</p>
+        </header>
+
+        <div class="grid-3">
+          <!-- Project card 1 -->
+          <article class="card">
+            <div class="card-tag">HTML 5 • Web</div>
+            <h3>E-Commerce Website</h3>
+            <p>
+             E-Commerce and download hub deployed on GitHub Pages for static hosting.
+            </p>
+            <ul class="meta-list">
+              <li>Stack: HTML, CSS, JS</li>
+              <li>Host: GitHub Pages</li>
+            </ul>
+            <div class="card-actions">
+              <a href="https://safeeraexim.com/" target="_blank" class="btn small">
+                View Website
+              </a>
+              <a href="#downloads" class="text-link">Download build</a>
+            </div>
+          </article>
+
+          <!-- Project card 2 -->
+          <article class="card">
+            <div class="card-tag">Unity • Game</div>
+            <h3>Tic-Tac-Toe</h3>
+            <p>
+              Simple board game focusing on clean architecture and reusable UI patterns for future projects.
+            </p>
+            <ul class="meta-list">
+              <li>Engine: Unity</li>
+              <li>Language: C#</li>
+            </ul>
+            <div class="card-actions">
+              <a class="text-link">Under Development</a>
+            </div>
+            <!-- <div class="card-actions">
+              <a href="https://github.com/your-github-username/tic-tac-toe" target="_blank" class="btn small">
+                View on GitHub
+              </a>
+              <a href="#downloads" class="text-link">Download build</a>
+            </div> -->
+          </article>
+
+          <!-- Project card 3 -->
+          <article class="card">
+            <div class="card-tag">Frontend • Web</div>
+            <h3>Personal Portfolio</h3>
+            <p>
+              Responsive portfolio and download hub deployed on GitHub Pages for static hosting.
+            </p>
+            <ul class="meta-list">
+              <li>Stack: HTML, CSS, JS</li>
+              <li>Host: GitHub Pages</li>
+            </ul>
+            <div class="card-actions">
+              <a href="projects/portfolio.html" target="_blank" class="btn small">
+                View Page
+              </a>
+              <a href="#downloads" class="text-link">Download build</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Downloads -->
+    <section class="section" id="downloads">
+      <div class="container">
+        <header class="section-header">
+          <h2>Project Downloads</h2>
+          <p>Direct download links for builds and assets.</p>
+        </header>
+
+        <div class="downloads-table-wrapper">
+          <table class="downloads-table">
+            <thead>
+              <tr>
+                <th>Project</th>
+                <th>Platform</th>
+                <th>Size</th>
+                <th>Download</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- GitHub / LFS / external storage URLs -->
+              <tr>
+                <td>E-Commerce Website</td>
+                <td>WebGL</td>
+                <td>8.4 MB</td>
+                <td><a href="https://github.com/Shahid-Shaikh02/Safeera-Website/archive/refs/heads/main.zip" target="_blank">Download ZIP</a></td>
+              </tr>
+              <tr>
+                <td>Tic-Tac-Toe</td>
+                <td>Unknow</td>
+                <td>??</td>
+                <td><a href="https://github.com/Shahid-Shaikh02/" target="_blank">Download ZIP</a></td>
+              </tr>
+              <tr>
+                <td>Portfolio Web</td>
+                <td>WebGL</td>
+                <td>1.3 GB</td>
+                <td><a href="https://github.com/Shahid-Shaikh02/archive/shodan_dev/refs/heads/main.zip" target="_blank">Download ZIP</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="downloads-note">
+          <!-- Large files are hosted externally (GitHub Releases / object storage) to keep the site fast and responsive. -->
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Shodan. All rights reserved.</p>
+      <!-- <p>Built with HTML, CSS, and JavaScript. Deployed on GitHub Pages.</p> -->
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

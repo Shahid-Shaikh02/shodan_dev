@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shodan | Game & Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+ <body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Shodan<span>Dev</span></a>
+      <nav class="nav">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <!-- <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="#highlights">Highlights</a></li>
+          <li><a href="#downloads">Downloads</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul> -->
+      </nav>
+    </div>
+  </header>
+
+    <!-- Contact -->
+     <main>
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>For internships, collaborations, or questions about the projects.</p>
+        </header>
+
+        <div class="contact-layout">
+          <div>
+            <p>Email: <a href="mailto:your@email.com">emailInComing@email.com</a></p>
+            <p>GitHub: <a href="https://github.com/Shahid-Shaikh02/" target="_blank">Shahid-Shaikh02</a></p>
+            <p>Preferred: email with project / role details and links.</p>
+          </div>
+
+          <!-- Formspree / StaticForms -->
+          <form class="contact-form" id="contactForm" action="https://formspree.io/f/mdkqdbyp"
+  method="POST">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Short message..." required></textarea>
+            </div>
+            <button type="submit" class="btn primary full-width">Send</button>
+            
+            <p class="form-note" id="formNote"></p>
+          </form>
+
+          <!-- <p id="responseMessage" style="margin-top: 15px; color: green;"></p> -->
+        
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Shodan. All rights reserved.</p>
+      <!-- <p>Built with HTML, CSS, and JavaScript. Deployed on GitHub Pages.</p> -->
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+ </body>
+</html>
